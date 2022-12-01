@@ -57,6 +57,10 @@ a {
   color: black;
 }
 
+body {
+  background-color: #fff6ef;
+}
+
 header {
   background-color: white;
   display: flex;
@@ -86,6 +90,9 @@ header section {
   padding: 0 8vw;
   font-size: 1rem;
 }
+header section > a > i {
+  padding: 0 5px;
+}
 
 main {
   display: flex;
@@ -97,7 +104,6 @@ main > section:nth-of-type(1) {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background-color: grey;
 }
 main > section:nth-of-type(1) h2 {
   font-size: 4rem;
@@ -121,18 +127,15 @@ main > section:nth-of-type(2) > section {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
 }
-main > section:nth-of-type(2) > section > article {
-  border: 1px solid grey;
-}
 main > section:nth-of-type(2) > section > article > img {
   width: 100%;
 }
 main > section:nth-of-type(2) > section > article > p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 20px 0;
 }
 main > section:nth-of-type(2) > section > article > h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin: 20px 0;
 }
@@ -143,6 +146,7 @@ main > section:nth-of-type(2) > section > article > footer {
 }
 main > section:nth-of-type(2) > section > article > footer > img {
   height: 40px;
+  border-radius: 5px;
 }
 main > section:nth-of-type(2) > section > article > footer > p {
   margin: 0 20px;
@@ -155,13 +159,14 @@ main > section:nth-of-type(3) {
   padding: 50px;
 }
 main > section:nth-of-type(3) > button {
-  height: 50px;
-  width: 200px;
+  height: 80px;
+  width: 250px;
   background-color: pink;
   color: white;
   border: none;
   border-radius: 10px;
   margin: 50px;
+  font-size: 1.6rem;
 }
 main > section:nth-of-type(3) > p {
   font-size: 3rem;
@@ -169,21 +174,24 @@ main > section:nth-of-type(3) > p {
   margin: 20px;
 }
 main > section:nth-of-type(3) > form > input {
-  height: 30px;
+  height: 45px;
   width: 300px;
   background-color: white;
-  border: 1px solide pink;
+  border: 2px solid pink;
   border-radius: 10px;
   margin: 50px 0;
+  padding: 0 20px;
+  font-size: 1.2rem;
 }
 main > section:nth-of-type(3) > form > button {
-  height: 30px;
-  width: 100px;
+  height: 49px;
+  width: 150px;
   background-color: pink;
   color: white;
   border: none;
   border-radius: 10px;
   margin: 50px 0;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
